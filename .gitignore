@@ -1,0 +1,36 @@
+node_modules/
+downloads/
+tools/
+data/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Binaries & downloaded dependencies
+yt-dlp*
+*.exe
+
+# Cookies & private session data
+*cookies*.txt
+youtube-cookies*.txt
+*.txt
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# AI / Editor artifacts
+.aider*
+.vscode/
+.idea/
+.agents/
+skills-lock.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Discord music bot with YouTube links/search and Spotify playlist support.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.4.7",
+    "fast-average-color-node": "^4.0.0",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7",
+    "spotify-url-info": "^3.2.18",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
